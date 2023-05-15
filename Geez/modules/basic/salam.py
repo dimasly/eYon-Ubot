@@ -21,7 +21,7 @@ from geezlibs.geez.helper.PyroHelpers import ReplyCheck
 from Geez.modules.basic import add_command_help
 from Geez import cmds
 
-@geez("p", cmds)
+@geez("pp", cmds)
 async def salamone(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
@@ -69,32 +69,32 @@ async def jwbsalamlngkp(client: Client, message: Message):
     )
 
         
-@geez("proses", cmds)
-async def jwbsalam(client: Client, message: Message):
+@geez("p", cmds)
+async def proses(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
         client.send_message(
             message.chat.id,
-            "Pesanan mu sedang di proses, mohon menunggu sesuai dengan antrian",
+            "Pesanan mu sedang di proses mohon menunggu sesuai dengan antrian",
             reply_to_message_id=ReplyCheck(message),
         ),
     )
 
     
- @geez("pay", cmds)
-async def jwbsalam(client: Client, message: Message):
+@geez("pay", cmds)
+async def bayar(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
         client.send_message(
             message.chat.id,
-            "Lakukan Pembayaran di @YokPay, jangan lupa kirim bukti tf",
+            "Lakukan Pembayaran di @YokPay jangan lupa kirim bukti tf",
             reply_to_message_id=ReplyCheck(message),
         ),
     )
 
     
     @geez("done", cmds)
-async def jwbsalam(client: Client, message: Message):
+async def selesai(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
         client.send_message(
