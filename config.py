@@ -5,22 +5,22 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-API_ID = int(getenv("API_ID", "5655010")) #optional
-API_HASH = getenv("API_HASH", "137d3d82e79c41f113ba640fc3cb2dfd") #optional
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+API_ID = int(getenv("API_ID", "16209450")) #optional
+API_HASH = getenv("API_HASH", "a4573c55ebf7c23038b927997447b78d") #optional
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1863087128").split()))
 OWNER_ID = getenv("OWNER_ID")
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
+PM_LOGGER = getenv("PM_LOGGER", "true")
 OPENAI_API = getenv("OPENAI_API")
 RMBG_API = getenv("RMBG_API", "3RCCWg8tMBfDWdAs44YMfJmC")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 PM_LIMIT = int(getenv("PM_LIMIT") or 5)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
-GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/hitokizzy/Geez-Pyro")
+GIT_TOKEN = getenv("GIT_TOKEN", "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") #personal access token
+REPO_URL = getenv("REPO_URL", "https://github.com/dimasly/eYon-Ubot")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 BRANCH = getenv("BRANCH", "main") #don't change
