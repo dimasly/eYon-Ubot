@@ -44,8 +44,7 @@ async def start(app, message):
     caption = "Yoo, saya geez Pyro Assistant, gada yang spesial dari saya\ntapi boong..."
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Support", url="https://t.me/GeezRam"),
-            InlineKeyboardButton("Repo", url="https://github.com/hitokizzy/Geez/Pyro"),
+            InlineKeyboardButton("Support", url="https://t.me/zeeyeonho")
         ],
     ])
 
