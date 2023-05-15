@@ -14,7 +14,7 @@ MSG_ON = """
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
 **Geez Library Version - `{}`**
-**Ketik** `{}geez` **untuk Mengecheck Bot**
+**Ketik** `{}eYon` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 eYon|RAM Projects
 """
