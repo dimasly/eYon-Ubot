@@ -71,13 +71,13 @@ async def get_readable_time(seconds: int) -> str:
 async def alive_function(message: Message, answers):
     uptime = await get_readable_time((time.time() - StartTime))
     msg = f"""
-<b> Geez-Pyro™ </b>
+<b> eYon-Pyro™ </b>
 
 <b> • User :</b> {message.from_user.mention}
 <b> • Plugins :</b> <code>{len(CMD_HELP)} Modules</code>
 <b> • Python Version :</b> <code>{pyver.split()[0]}</code>
 <b> • Pyrogram Version :</b> <code>{pyrover}</code>
-<b> • Geezlibs Version :</b> <code>{gver}</code>
+<b> • eYonlibs Version :</b> <code>{gver}</code>
 <b> • Bot Uptime :</b> <code>{uptime}</code>
 <b> • Bot version:</b> <code>{BOT_VER}</code>
 """
@@ -103,7 +103,7 @@ async def ping_function(message: Message, answers):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     msg = (
-        f"<b>Geez - Pyro!!🎈</b>\n\n"
+        f"<b>eYon - Pyro!!🎈</b>\n\n"
         f"Pɪɴɢᴇʀ :</b> <code>{duration}ms</code>\n"
         f"Uᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>"
     )
