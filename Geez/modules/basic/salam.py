@@ -68,8 +68,44 @@ async def jwbsalamlngkp(client: Client, message: Message):
         ),
     )
 
+        
+@geez("proses", cmds)
+async def jwbsalam(client: Client, message: Message):
+    await asyncio.gather(
+        message.delete(),
+        client.send_message(
+            message.chat.id,
+            "Pesanan mu sedang di proses, mohon menunggu sesuai dengan antrian",
+            reply_to_message_id=ReplyCheck(message),
+        ),
+    )
 
+    
+ @geez("pay", cmds)
+async def jwbsalam(client: Client, message: Message):
+    await asyncio.gather(
+        message.delete(),
+        client.send_message(
+            message.chat.id,
+            "Lakukan Pembayaran di @YokPay, jangan lupa kirim bukti tf",
+            reply_to_message_id=ReplyCheck(message),
+        ),
+    )
 
+    
+    @geez("done", cmds)
+async def jwbsalam(client: Client, message: Message):
+    await asyncio.gather(
+        message.delete(),
+        client.send_message(
+            message.chat.id,
+            "Terimakasih telah belanja di @NusantaraStores",
+            reply_to_message_id=ReplyCheck(message),
+        ),
+    )
+    
+    
+    
 @geez("as", cmds)
 async def salamarab(client: Client, message: Message):
     xx = await edit_or_reply(message, "Salam Dulu Gua..")
