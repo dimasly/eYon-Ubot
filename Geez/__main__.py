@@ -13,7 +13,7 @@ MSG_ON = """
 **eYon Pyro Userbot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
-**Geez Library Version - `{}`**
+**eYon Library Version - `{}`**
 **Ketik** `{}eYon` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 eYon|RAM Projects
