@@ -1,8 +1,9 @@
 <img src="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png">
 
-<p align="center"> 🔥 𝗚𝗲𝗲𝘇 𝗣𝘆𝗿𝗼 🔥 </p>
+<p align="center"> 🔥 eYon UBot 🔥 </p>
 
 - UBOT BIASA GAK ADA YG ISTIMEWA
+- INI PUNYA GEEZ CUMAN KU MODIFIKASI
 
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
