@@ -93,7 +93,7 @@ async def bayar(client: Client, message: Message):
     )
 
     
-    @geez("done", cmds)
+@geez("done", cmds)
 async def selesai(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
