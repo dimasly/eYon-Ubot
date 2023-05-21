@@ -40,16 +40,16 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"**Geez Pyro Userbot**\n\n"
+        f"**eYon Pyro Userbot**\n\n"
         f"〄 **Versi**: `{BOT_VER}`\n"
         f"  ├• **Uptime**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"  ├• **Phython**: `{python_version()}`\n"
         f"  ├• **Pyrogram**: `{__version__}`\n"
         f"  └• **Geez Library**: `{gver}`\n\n"
-        f"©️2023 [Geez|RAM Support](t.me/GeezRam)\n"
+        f"©️2023 [eYon|RAM Support](t.me/Zeeyeonho)\n"
     )
 
-@geez("geez", cmds)
+@geez("yon", cmds)
 async def module_help(client: Client, message: Message):
     await logging(client)
     cmd = message.command
@@ -99,12 +99,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Mengambil informasi repo.....")
     await asyncio.sleep(1)
-    await message.edit("repo Geez-Pyro Official: \n\n\nhttps://github.com/hitokizzy/Geez-Pyro")
+    await message.edit("Repo ini bersifat pribadi!")
 
 
 @geez("creator", cmds)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://github.com/vckyou")
+    await message.edit("https://.t.me/Yeonhw")
 
 
 @geez("id", cmds)
