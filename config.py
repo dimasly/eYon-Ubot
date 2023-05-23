@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-API_ID = int(getenv("API_ID", "16209450")) #optional
-API_HASH = getenv("API_HASH", "a4573c55ebf7c23038b927997447b78d") #optional
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1863087128").split()))
+API_ID = int(getenv("API_ID", "28509321")) #optional
+API_HASH = getenv("API_HASH", "ecab5787223afbadb69907b8b5ec405e") #optional
+SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 OWNER_ID = getenv("OWNER_ID")
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
