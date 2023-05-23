@@ -33,7 +33,7 @@
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
             "required": true,
-            "value": "1234567890"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
@@ -43,12 +43,12 @@
         "HEROKU_API_KEY": {
             "description": "Heroku Api Key",
             "required": true,
-            "value": "."
+            "value": ""
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP name",
             "required": true,
-            "value": "."
+            "value": ""
         }
     },
     "buildpacks": [
