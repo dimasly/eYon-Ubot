@@ -15,6 +15,16 @@
             "required": true,
             "value": ""
         },
+      "SUDO_USERS": {
+            "description": "Jika ingin menggunakan openai, isi openai-api-key",
+            "required": false,
+            "value": "2022313646"
+        },
+      "BOTLOG_CHATID": {
+            "description": "Jika ingin menggunakan openai, isi openai-api-key",
+            "required": false,
+            "value": ""
+        },
         "OPENAI_API": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
