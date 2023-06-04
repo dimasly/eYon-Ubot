@@ -23,7 +23,7 @@ from geezlibs.geez import geez
 from Geez.modules.basic import add_command_help
 from Geez import cmds
 
-caption = f"**UPLOADED BY** Geez | RAM"
+caption = f"**UPLOADED BY** eYon | RAM"
 
 @geez("asupan", cmds)
 async def asupan(client: Client, message: Message):
