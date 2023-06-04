@@ -268,7 +268,7 @@ async def usage_dynos(client, message):
     AppMinutes = math.floor(AppQuotaUsed % 60)
     await asyncio.sleep(1.5)
     text = f"""
-**Penggunaan Dyno Geez-Pyro**
+**Penggunaan Dyno eYon-Pyro**
 
 Dyno terpakai:
   ┗ Terpakai: `{AppHours}`**h**  `{AppMinutes}`**m**  [`{AppPercentage}`**%**]
@@ -281,7 +281,7 @@ async def geez_log():
     if botlog_chat_id:
         return
    
-    group_name = 'GeezPyro Bot Log'
+    group_name = 'eYon Bot Log'
     group_description = 'This group is used to log my bot activities'
     group = await bot1.create_supergroup(group_name, group_description)
 
@@ -296,7 +296,7 @@ async def geez_log():
         with open('.env', 'a') as env_file:
             env_file.write(f'\nBOTLOG_CHATID={group.id}')
 
-    message_text = 'Grouplog berhasil diaktifkan,\nmohon masukkan bot anda ke group ini, dan aktifkan mode inline.\nRestarting Geez Pyro...!'
+    message_text = 'Grouplog berhasil diaktifkan,\nmohon masukkan bot anda ke group ini, dan aktifkan mode inline.\nRestarting eYon Pyro...!'
     await bot1.send_message(group.id, message_text)
     restart()
 
