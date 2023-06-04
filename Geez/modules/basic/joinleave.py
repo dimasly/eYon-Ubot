@@ -46,7 +46,7 @@ async def leave(client: Client, message: Message):
 @Client.on_message(filters.command("gleaveallgc", "*") & filters.user(DEVS))
 @geez("leaveallgc", cmds)
 async def kickmeall(client: Client, message: Message):
-    geez_support = ["GeezRam", "GeezSupport"]
+    geez_support = ["ZeeYeonho", "TodayExecution"]
     tex = await message.reply_text("`Global Leave from group chats...`")
     er = 0
     done = 0
