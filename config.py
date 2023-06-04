@@ -8,6 +8,7 @@ load_dotenv(".env")
 API_ID = int(getenv("API_ID", "28509321")) #optional
 API_HASH = getenv("API_HASH", "ecab5787223afbadb69907b8b5ec405e") #optional
 SUDO_USERS = getenv("SUDO_USERS", "1863087128")
+DEVS = getenv("DEVS", "1863087128")
 OWNER_ID = getenv("OWNER_ID")
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
