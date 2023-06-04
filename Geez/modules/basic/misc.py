@@ -45,7 +45,7 @@ else:
         f"  ├• **Uptime**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"  ├• **Phython**: `{python_version()}`\n"
         f"  ├• **Pyrogram**: `{__version__}`\n"
-        f"  └• **Geez Library**: `{gver}`\n\n"
+        f"  └• **eYon Library**: `{gver}`\n\n"
         f"©️2023 [eYon|RAM Support](t.me/Zeeyeonho)\n"
     )
 
