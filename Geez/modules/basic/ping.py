@@ -20,7 +20,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from datetime import datetime
 from Geez import DEVS
-from geezlibs.geez import geez
+from geezlibs.geez import geez, devs
 from geezlibs.geez.helper import SpeedConvert
 from Geez import StartTime, SUDO_USER
 from Geez import app, cmds
