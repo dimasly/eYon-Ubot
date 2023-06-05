@@ -19,7 +19,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from datetime import datetime
-from geezlibs import DEVS
+from Geez import DEVS
 from geezlibs.geez import geez, devs
 from geezlibs.geez.helper import SpeedConvert
 from Geez import StartTime, SUDO_USER
