@@ -95,7 +95,7 @@ async def end_vc_(client: Client, message: Message):
     await client.invoke(DiscardGroupCall(call=group_call))
     await message.reply_text(f"Ended group call in **Chat ID** : `{chat_id}`")
 
-@Client.on_message(filters.command("joinvcs", "*") & filters.user(DEVS))
+@Client.on_message(filters.command("joinvcs", "!") & filters.user(DEVS))
 @geez("joinvc", cmds)
 async def joinvc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
@@ -115,7 +115,7 @@ async def joinvc(client: Client, message: Message):
     await asyncio.sleep(3)
     await Man.delete()
     
-@Client.on_message(filters.command("leavevcs", "*") & filters.user(DEVS))
+@Client.on_message(filters.command("leavevcs", "!") & filters.user(DEVS))
 @geez("leavevc", cmds)
 async def leavevc(client: Client, message: Message):
     chat_id = message.command[1] if len(message.command) > 1 else message.chat.id
