@@ -28,8 +28,8 @@ from geezlibs import DEVS
 from geezlibs.geez.helper import edit_or_reply, get_arg
 from geezlibs.geez import geez
 from Geez.modules.basic import add_command_help
-from Geez import SUDO_USER
-from Geez import cmds
+from Geez import cmds, SUDO_USER
+
 
 async def get_group_call(
     client: Client, message: Message, err_msg: str = ""
