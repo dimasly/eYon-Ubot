@@ -15,6 +15,7 @@ from geezlibs.geez.database import db_x
 from config import (
     API_HASH,
     API_ID,
+    DEVS,
     CMD_HNDLR,
     STRING_SESSION1,
     STRING_SESSION2,
