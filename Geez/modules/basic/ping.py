@@ -19,10 +19,10 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from datetime import datetime
-from Geez import DEVS
-from geezlibs.geez import geez, devs
+from geezlibs.geez import geez
 from geezlibs.geez.helper import SpeedConvert
 from Geez import StartTime, SUDO_USER
+from Geez import DEVS
 from Geez import app, cmds
 from Geez.modules.bot.inline import get_readable_time
 from Geez.modules.basic import add_command_help
