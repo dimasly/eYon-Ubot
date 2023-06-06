@@ -19,8 +19,8 @@ from pyrogram.types import Message
 from geezlibs.geez.helper import edit_or_reply
 from geezlibs.geez import geez
 from geezlibs.geez.autobot import HAPP, in_heroku
-from geezlibs import BL_GCAST, DEVS
-from Geez import cmds
+from geezlibs import BL_GCAST
+from Geez import cmds, DEVS
 from Geez.modules.basic import add_command_help
 from Geez.modules.basic.update import restart
 from config import HEROKU_APP_NAME, HEROKU_API_KEY, BLACKLIST_GCAST
