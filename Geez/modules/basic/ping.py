@@ -19,7 +19,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from datetime import datetime
-from geezlibs.geez import geez
+from geezlibs.geez import geez, devs
 from geezlibs.geez.helper import SpeedConvert
 from Geez import StartTime, SUDO_USER
 from Geez import DEVS
@@ -169,6 +169,6 @@ add_command_help(
     "alive",
     [
         [f"{cmds}alive", "Check bot alive or not."],
-        [f"{cmds}yon", "Check bot alive or not."],
+        [f"{cmds}geez", "Check bot alive or not."],
     ],
 )
