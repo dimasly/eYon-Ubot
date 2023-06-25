@@ -1,9 +1,9 @@
 {
-    "name": "Geez Pyro Userbot",
+    "name": "eYon Pyro Userbot",
     "description": "UserBot BIASA AJAH !!!.",
     "logo": "https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
-    "keywords": ["telegram", "userbot", "Geez", "pyrogram"],
-    "repository": "https://github.com/hitokizzy/Geez-Pyro",
+    "keywords": ["telegram", "userbot", "eYon", "pyrogram"],
+    "repository": "https://github.com/dimasly/eYon-Ubot/tree/main",
     "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -28,7 +28,7 @@
         "OPENAI_API": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
-            "value": ""
+            "value": "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"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
