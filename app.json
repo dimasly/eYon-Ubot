@@ -18,12 +18,12 @@
       "SUDO_USERS": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
-            "value": "2022313646"
+            "value": "2022313646 1863087128"
         },
       "BOTLOG_CHATID": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
-            "value": ""
+            "value": "-1001914326850"
         },
         "OPENAI_API": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
@@ -33,7 +33,7 @@
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
             "required": true,
-            "value": ""
+            "value": "1863087128"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
