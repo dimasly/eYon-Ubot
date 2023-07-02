@@ -21,7 +21,7 @@ from geezlibs.geez.helper.PyroHelpers import ReplyCheck
 from Geez.modules.basic import add_command_help
 from Geez import cmds
 
-@geez("pp", cmds)
+@geez("p", cmds)
 async def salamone(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
@@ -69,7 +69,7 @@ async def jwbsalamlngkp(client: Client, message: Message):
     )
 
         
-@geez("p", cmds)
+@geez("pp", cmds)
 async def proses(client: Client, message: Message):
     await asyncio.gather(
         message.delete(),
